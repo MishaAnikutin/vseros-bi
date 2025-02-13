@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    font-family: 'Inter';
+    color: #ffffff;
+    margin: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Unbounded';
+}
+
+.dashboard-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}

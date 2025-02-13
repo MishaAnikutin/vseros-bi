@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .graph-column, .text-column {
+        width: 100% !important;
+        order: initial !important;
+    }
+
+    .dashboard-title {
+        font-size: 1.5em;
+    }
+}

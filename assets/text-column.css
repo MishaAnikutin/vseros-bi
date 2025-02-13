@@ -1,0 +1,14 @@
+.text-column {
+    width: 30%;
+    order: 1;
+}
+
+.dashboard-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.dashboard-description {
+    line-height: 1.5;
+    color: light-grey;
+}
