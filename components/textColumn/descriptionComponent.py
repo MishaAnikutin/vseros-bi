@@ -1,7 +1,7 @@
 from dash import html
 
 
-DescriptionComponent = (
+DescriptionComponent = html.Div([
     html.H1(
         "Всерос-BI",
         className="dashboard-title"
@@ -13,4 +13,4 @@ DescriptionComponent = (
             "школьных олимпиад по экономике"
         )
     )
-)
+])

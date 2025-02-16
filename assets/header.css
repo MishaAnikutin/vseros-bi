@@ -1,0 +1,29 @@
+.header-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-icon {
+    height: 40px;
+    width: auto;
+}
+
+.telegram-button {
+    height: 20px;
+    background-color: #2F80ED;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: white;
+    color: #2F80ED !important;
+    outline: 3px solid #2F80ED;
+}
+

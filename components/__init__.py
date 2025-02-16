@@ -1,4 +1,5 @@
 from .textColumn import TextColumn
-from .graphСolumn import GraphColumn
+from .graphColumn import GraphColumn
+from .header import HeaderComponent
 
-__all__ = ('TextColumn', 'GraphColumn', )
+__all__ = ('TextColumn', 'GraphColumn', 'HeaderComponent', )

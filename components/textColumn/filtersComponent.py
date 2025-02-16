@@ -1,15 +1,18 @@
-from dash import dcc
+from dash import dcc, html
 
 
-FiltersComponent = (
+FiltersComponent = html.Div([
     dcc.Dropdown(
         id='olympiad-type-dropdown',
         options=[
-            {'label': 'Регион', 'value': 'РЭ ВОШ'},
-            {'label': 'Сибириада', 'value': 'Сибириада'},
-            {'label': 'Высшая проба', 'value': 'ВП'},
+            {'label': 'Региональный этап', 'value': 'region'},
+            {'label': 'Заключительный этап', 'value': 'vseros'},
+            {'label': 'Сибириада', 'value': 'sibiriada'},
+            {'label': 'Высшая проба', 'value': 'vp'},
+            {'label': 'Миссия выполнима', 'value': 'finashka'},
+            {'label': 'МОШ', 'value': 'mosh'},
         ],
-        value='РЭ ВОШ',
+        value='region',
         className='dropdown'
     ),
     dcc.Dropdown(
@@ -24,4 +27,4 @@ FiltersComponent = (
         value=11,
         className='dropdown'
     )
-)
+])

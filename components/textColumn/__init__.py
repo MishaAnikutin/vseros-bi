@@ -7,8 +7,8 @@ from .descriptionComponent import DescriptionComponent
 TextColumn = html.Div(
     className="text-column",
     children=[
-        *DescriptionComponent,
-        *FiltersComponent,
+        DescriptionComponent,
+        FiltersComponent,
     ]
 )
 
